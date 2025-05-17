@@ -125,87 +125,34 @@ Este repo es basicamente para tratar de farmear el ingles
 
 ---
 
+<details><summary>51) decision</summary>decisión</details>
 
-51)decision  
+<details><summary>52) definition</summary>definición</details>
 
-<details><summary>Traducción</summary>decisión</details>
+<details><summary>53) department</summary>departamento</details>
 
+<details><summary>54) depression</summary>depresión</details>
 
+<details><summary>55) depth</summary>profundidad</details>
 
-52)definition 
+<details><summary>56) description</summary>descripción</details>
 
-<details><summary>Traducción</summary>definición</details>
+<details><summary>57) development</summary>desarrollo</details>
 
+<details><summary>58) difference</summary>diferencia</details>
 
+<details><summary>59) direction</summary>dirección</details>
 
-53)department  
+<details><summary>60)director</summary>director</details>
 
-<details><summary>Traducción</summary>departamento</details>
+---
 
+<details><summary>61) discussion</summary>discusión</details>
 
+<details><summary>62) disease</summary>enfermedad</details>
 
-54)depression  
+<details><summary>63)disk</summary>disco</details>
 
-<details><summary>Traducción</summary>depresión</details>
-
-
-
-55)depth 
-
-<details><summary>Traducción</summary>profundidad</details>
-
-
-
-56)description 
-
-<details><summary>Traducción</summary>descripción</details>
-
-
-
-57)development 
-
-<details><summary>Traducción</summary>desarrollo</details>
-
-
-
-58)difference  
-
-<details><summary>Traducción</summary>diferencia</details>
-
-
-
-59)direction  
-
-<details><summary>Traducción</summary>dirección</details>
-
-
-
-60)director  
-
-<details><summary>Traducción</summary>director</details>
-
-
-
-61)discussion  
-
-<details><summary>Traducción</summary>discusión</details>
-
-
-
-62)disease  
-
-<details><summary>Traducción</summary>enfermedad</details>
-
-
-
-63)disk  
-
-<details><summary>Traducción</summary>disco</details>
-
-
-
-64)distribution  
-
-<details><summary>Traducción</summary>distribución</details>
+<details><summary>64) distribution</summary>distribución</details>
 
 
