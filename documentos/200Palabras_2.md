@@ -338,6 +338,8 @@
 
 <details><summary>150) river</summary>rio</details>
 
+---
+
 <details><summary>151) road</summary>carretera</details>
 
 <details><summary>152) rock</summary>roca</details>
@@ -357,6 +359,8 @@
 <details><summary>159) sentence</summary>oración</details>
 
 <details><summary>160) ship</summary>barco</details>
+
+---
 
 <details><summary>161) shoe</summary>zapato</details>
 
@@ -378,6 +382,8 @@
 
 <details><summary>170) son</summary>hijo</details>
 
+---
+
 <details><summary>171) sound</summary>sonido</details>
 
 <details><summary>172) spring</summary>primavera</details>
@@ -397,6 +403,8 @@
 <details><summary>179) sun</summary>sol</details>
 
 <details><summary>180) table</summary>mesa</details>
+
+---
 
 <details><summary>181) telephone</summary>teléfono</details>
 
@@ -418,6 +426,8 @@
 
 <details><summary>190) weather</summary>clima</details>
 
+---
+
 <details><summary>191) weight</summary>peso</details>
 
 <details><summary>192) wife</summary>esposa</details>
@@ -437,3 +447,5 @@
 <details><summary>199) year</summary>año</details>
 
 <details><summary>200) zoo</summary>zoológico</details>
+
+---
