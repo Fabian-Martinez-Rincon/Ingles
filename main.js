@@ -8,13 +8,15 @@ const submitBtn = document.getElementById("submitBtn");
 const feedback = document.getElementById("feedback");
 const resultBox = document.getElementById("resultBox");
 
-// Normaliza el texto: elimina acentos, espacios y lo pasa a minúscula
+// Normaliza el texto: elimina acentos, puntuación, mayúsculas y espacios
 function normalize(text) {
   return text
-    .normalize("NFD")                     // descompone caracteres con tilde
-    .replace(/[\u0300-\u036f]/g, "")     // elimina los diacríticos
-    .toLowerCase()                       // todo en minúscula
-    .trim();                             // sin espacios al inicio/fin
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")         // quitar acentos
+    .replace(/[.,/#!$%^&*;:{}=_`~()?¿¡!"'«»]/g, "")  // quitar signos
+    .replace(/\s+/g, " ")                    // espacios simples
+    .toLowerCase()
+    .trim();
 }
 
 function loadQuestion() {
@@ -22,7 +24,7 @@ function loadQuestion() {
     questionText.textContent = `${currentQuestion + 1}. ${questions[currentQuestion].question}`;
     answerInput.value = "";
     feedback.textContent = "";
-    answerInput.focus(); // Auto-focus en el input
+    answerInput.focus();
   } else {
     showResult();
   }
@@ -39,10 +41,18 @@ function showResult() {
   `;
 }
 
-// Responder con botón o Enter
 submitBtn.addEventListener("click", () => {
   const userAnswer = normalize(answerInput.value);
-  const correctAnswers = questions[currentQuestion].answers.map(normalize);
+  const q = questions[currentQuestion];
+
+  // Asegura compatibilidad con 'answer' o 'answers'
+  const rawAnswers = Array.isArray(q.answers)
+    ? q.answers
+    : typeof q.answer === 'string'
+    ? [q.answer]
+    : [];
+
+  const correctAnswers = rawAnswers.map(normalize);
 
   if (userAnswer === "") {
     feedback.textContent = "Por favor, escribí una respuesta.";
@@ -58,8 +68,8 @@ submitBtn.addEventListener("click", () => {
       loadQuestion();
     }, 800);
   } else {
-    const originalAnswers = questions[currentQuestion].answers.join(" / ");
-    feedback.textContent = `Incorrecto. Las respuestas posibles son: "${originalAnswers}"`;
+    const original = rawAnswers.join(" / ");
+    feedback.textContent = `Incorrecto. Respuesta esperada: "${original}"`;
     feedback.className = "incorrect";
     setTimeout(() => {
       currentQuestion++;
@@ -68,14 +78,14 @@ submitBtn.addEventListener("click", () => {
   }
 });
 
-// ENTER simula click en "Responder"
+// ENTER simula clic
 answerInput.addEventListener("keydown", (event) => {
   if (event.key === "Enter") {
     submitBtn.click();
   }
 });
 
-// Cargar preguntas desde el archivo JSON
+// Cargar preguntas
 fetch('./palabras/palabras_1.json')
   .then(res => res.json())
   .then(data => {
