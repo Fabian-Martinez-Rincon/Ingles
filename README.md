@@ -2,6 +2,8 @@
 
 Este repo es basicamente para tratar de farmear el ingles
 
+![1200-x-630-3-5](https://github.com/user-attachments/assets/6689752f-675d-4fcc-928d-dbdd0be1d9e1)
+
 ### Palabras
 
 ---
