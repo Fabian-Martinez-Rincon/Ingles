@@ -1,4 +1,10 @@
-## Palabras
+<div align='center'>
+
+# Palabras
+
+<img src='https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmFmeWNtaDI0Zm81ZW8xbXB4cmU1b3YzZDd6bHhpYW85ZXl6M280aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/j5uN51YTuCl5JjbBp0/giphy.gif'>
+
+</div>
 
 ---
 
