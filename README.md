@@ -6,7 +6,7 @@
 Este repo es basicamente para tratar de farmear el ingles
 
 
-<img src="https://github.com/userattachments/assets/6689752f675d4fcc928ddbdd0be1d9e1" width="550px" />
+---
 </div>
 
 
