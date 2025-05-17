@@ -13,294 +13,117 @@ Este repo es basicamente para tratar de farmear el ingles
 
 ### Palabras
 
+---
+
 <details><summary>1) ability</summary>habilidad</details>
 
 <details><summary>2) activity</summary>actividad</details>
 
 <details><summary>3) ad</summary>anuncio</details>
 
+<details><summary>4) addition  </summary>suma</details>
 
+<details><summary>5) administration</summary>administración</details>
 
-4) addition  
+<details><summary>6) advertising</summary>publicidad</details>
 
-<details><summary>Traducción</summary>suma</details>
+<details><summary>7) advice</summary>consejo</details>
 
+<details><summary>8) agency</summary>agencia</details>
 
+<details><summary>9) alcohol </summary>alcohol</details>
 
-5) administration 
+<details><summary>10) analysis </summary>análisis</details>
 
-<details><summary>Traducción</summary>administración</details>
+---
 
+<details><summary>11) apartment </summary>apartamento</details>
 
+<details><summary>12)appearance</summary>apariencia</details>
 
-6) advertising  
+<details><summary>13) application</summary>solicitud</details>
 
-<details><summary>Traducción</summary>publicidad</details>
+<details><summary>14) area  </summary>área / zona</details>
 
+<details><summary>15) argument</summary>argumento</details>
 
+<details><summary>16) army </summary>ejército</details>
 
-7) advice  
+<details><summary>17) article</summary>artículo</details>
 
-<details><summary>Traducción</summary>consejo</details>
+<details><summary>18) aspect</summary>aspecto</details>
+  
+<details><summary>19) association</summary>asociación</details>
 
+<details><summary>20) attention</summary>atención</details>
 
+---
 
-8) agency  
+<details><summary>21) attitude</summary>actitud</details>
 
-<details><summary>Traducción</summary>agencia</details>
+<details><summary>22) audience</summary>audiencia</details>
 
+<details><summary>23) basis</summary>base</details>
 
+<details><summary>24) boyfriend</summary>novio</details>
 
-9) alcohol  
+<details><summary>25) camera</summary>cámara</details>
 
-<details><summary>Traducción</summary>alcohol</details>
+<details><summary>26) category</summary>categoría</details>
 
+<details><summary>27) cell</summary>celda</details>
 
+<details><summary>28) chemistry</summary>química</details>
 
-10)analysis  
+<details><summary>29) child</summary>niño</details>
 
-<details><summary>Traducción</summary>análisis</details>
+<details><summary>30) cigarette</summary>cigarro</details>
 
+---
 
+<details><summary>31) collection </summary>colección</details>
 
-11)apartment  
+<details><summary>32) college</summary>colegio</details>
 
-<details><summary>Traducción</summary>apartamento</details>
+<details><summary>33) combination </summary>combinación</details>
 
+<details><summary>34) communication  </summary>comunicación</details>
 
+<details><summary>35) community</summary>comunidad</details>
 
-12)appearance  
+<details><summary>36) competition</summary>competencia</details>
 
-<details><summary>Traducción</summary>apariencia</details>
+<details><summary>37) complaint</summary>queja</details>
 
+<details><summary>38) computer</summary>computadora</details>
 
+<details><summary>39) concept</summary>concepto</details>
 
-13)application  
+<details><summary>40) connection</summary>conexión</details>
 
-<details><summary>Traducción</summary>solicitud</details>
+---
 
+<details><summary>41) context</summary>contexto</details>
 
+<details><summary>42) contract</summary>contrato</details>
 
-14)area  
+<details><summary>43) control</summary>control</details>
 
-<details><summary>Traducción</summary>área / zona</details>
+<details><summary>44) county</summary>condado</details>
 
+<details><summary>45) criticism</summary>crítica</details>
 
+<details><summary>46) customer</summary>cliente</details>
 
-15)argument  
+<details><summary>47) data</summary>información</details>
 
-<details><summary>Traducción</summary>argumento</details>
+<details><summary>48) dealer</summary>comerciante</details>
 
+<details><summary>49) death</summary>muerte</details>
 
+<details><summary>50) debt</summary>deuda</details>
 
-16)army  
-
-<details><summary>Traducción</summary>ejército</details>
-
-
-
-17)article  
-
-<details><summary>Traducción</summary>artículo</details>
-
-
-
-18)aspect  
-
-<details><summary>Traducción</summary>aspecto</details>
-
-
-
-19)association  
-
-<details><summary>Traducción</summary>asociación</details>
-
-
-
-20)attention  
-
-<details><summary>Traducción</summary>atención</details>
-
-
-
-21)attitude  
-
-<details><summary>Traducción</summary>actitud</details>
-
-
-
-22)audience  
-
-<details><summary>Traducción</summary>audiencia</details>
-
-
-
-23)basis  
-
-<details><summary>Traducción</summary>base</details>
-
-
-
-24)boyfriend  
-
-<details><summary>Traducción</summary>novio</details>
-
-
-
-25)camera  
-
-<details><summary>Traducción</summary>cámara</details>
-
-
-
-26)category 
-
-<details><summary>Traducción</summary>categoría</details>
-
-
-
-27)cell  
-
-<details><summary>Traducción</summary>celda</details>
-
-
-
-28)chemistry  
-
-<details><summary>Traducción</summary>química</details>
-
-
-
-29)child 
-
-<details><summary>Traducción</summary>niño</details>
-
-
-
-30)cigarette  
-
-<details><summary>Traducción</summary>cigarro</details>
-
-
-
-31)collection  
-
-<details><summary>Traducción</summary>colección</details>
-
-
-
-32)college  
-
-<details><summary>Traducción</summary>colegio</details>
-
-
-
-33)combination 
-
-<details><summary>Traducción</summary>combinación</details>
-
-
-
-34)communication  
-
-<details><summary>Traducción</summary>comunicación</details>
-
-
-
-35)community  
-
-<details><summary>Traducción</summary>comunidad</details>
-
-
-
-36)competition  
-
-<details><summary>Traducción</summary>competencia</details>
-
-
-
-37)complaint  
-
-<details><summary>Traducción</summary>queja</details>
-
-
-
-38)computer  
-
-<details><summary>Traducción</summary>computadora</details>
-
-
-
-39)concept  
-
-<details><summary>Traducción</summary>concepto</details>
-
-
-
-40)connection 
-
-<details><summary>Traducción</summary>conexión</details>
-
-
-
-41)context  
-
-<details><summary>Traducción</summary>contexto</details>
-
-
-
-42)contract  
-
-<details><summary>Traducción</summary>contrato</details>
-
-
-
-43)control  
-
-<details><summary>Traducción</summary>control</details>
-
-
-
-44)county  
-
-<details><summary>Traducción</summary>condado</details>
-
-
-
-45)criticism  
-
-<details><summary>Traducción</summary>crítica</details>
-
-
-
-46)customer  
-
-<details><summary>Traducción</summary>cliente</details>
-
-
-
-47)data  
-
-<details><summary>Traducción</summary>información</details>
-
-
-
-48)dealer  
-
-<details><summary>Traducción</summary>comerciante</details>
-
-
-
-49)death  
-
-<details><summary>Traducción</summary>muerte</details>
-
-
-
-50)debt  
-
-<details><summary>Traducción</summary>deuda</details>
-
+---
 
 
 51)decision  
