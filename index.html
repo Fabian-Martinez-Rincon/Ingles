@@ -2,8 +2,8 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>🗽 Elige tu modo de juego</title>
-  <link rel="stylesheet" href="css/styles.css">
+  <title>📚 Fabo Materias</title>
+  <link rel="stylesheet" href="ingles/css/styles.css">
   <style>
     .finisher-header {
       position: fixed;
@@ -14,19 +14,17 @@
       z-index: -1;
     }
 
-    body {
-      font-family: 'Inter', sans-serif;
-      background: #0f0f2e;
-      color: #fff;
-      margin: 0;
-      height: 100vh;
-      justify-content: center;
-      align-items: center;
-    }
-
     .menu-container {
+      max-width: 720px;
+      margin: 20px auto 0 auto;
+      background: rgba(12, 14, 40, 0.75);
+      border-radius: 16px;
+      padding: 40px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.7);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
       text-align: center;
-      z-index: 1;
+      animation: fadeIn 1s ease;
     }
 
     .menu-container h1 {
@@ -53,22 +51,64 @@
       background-color: #818cf8;
       transform: scale(1.05);
     }
+
+    .top-banner {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 48px;
+      padding: 0 16px;
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(10px);
+      text-align: center;
+      line-height: 48px;
+      font-size: 1.1em;
+      font-weight: 600;
+      color: #ffffff;
+      letter-spacing: 1px;
+      z-index: 100;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #0f0f2e;
+      color: #fff;
+      margin: 0;
+      height: 100vh;
+      overflow: hidden;
+      padding-top: 80px;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
   </style>
 </head>
 <body>
   <div class="top-banner">
-    <span>FABO PREGUNTAS</span>
+    <span>FABO MATERIAS</span>
   </div>
 
   <div class="finisher-header"></div>
 
   <div class="menu-container">
-    <h1>🗽 200 Palabras - Parte 1️⃣</h1>
-    <button class="menu-btn" onclick="location.href='modos/texto/index.html'">📝 Evaluacion Escrita</button>
-    <button class="menu-btn" onclick="location.href='modos/autoevaluacion/index.html'">🤔 Autoevaluación</button>
+    <h1>📚 Elegí una materia</h1>
+    <button class="menu-btn" onclick="location.href='ingles/index.html'">🇬🇧 Inglés</button>
+    <button class="menu-btn" onclick="location.href='programacion/index.html'">💻 Programación</button>
+    <button class="menu-btn" onclick="location.href='matematicas/index.html'">➗ Matemáticas</button>
+    <!-- Podés seguir agregando más materias -->
   </div>
 
-  <script src="js/finisher-header.es5.min.js" type="text/javascript"></script>
+  <script src="ingles/js/finisher-header.es5.min.js" type="text/javascript"></script>
   <script>
     new FinisherHeader({
       "count": 20,
