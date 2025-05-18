@@ -2,8 +2,8 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Cuestionario paso a paso</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>🗽 Elige tu modo de juego</title>
+  <link rel="stylesheet" href="css/styles.css">
   <style>
     .finisher-header {
       position: fixed;
@@ -13,69 +13,78 @@
       height: 100%;
       z-index: -1;
     }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #0f0f2e;
+      color: #fff;
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .menu-container {
+      text-align: center;
+      z-index: 1;
+    }
+
+    .menu-container h1 {
+      font-size: 2em;
+      margin-bottom: 40px;
+    }
+
+    .menu-btn {
+      display: block;
+      width: 280px;
+      margin: 20px auto;
+      padding: 20px;
+      font-size: 1.2em;
+      background-color: #6366f1;
+      color: white;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 8px 24px rgba(99, 102, 241, 0.5);
+    }
+
+    .menu-btn:hover {
+      background-color: #818cf8;
+      transform: scale(1.05);
+    }
   </style>
 </head>
 <body>
-  <!-- Fondo animado -->
   <div class="finisher-header"></div>
 
-  <!-- Contenido del cuestionario -->
-  <div class="container">
-    <h1>🗽 200 Palabras Parte 1️⃣</h1>
-    <div id="questionBox">
-      <p id="questionText"></p>
-      <input type="text" id="answerInput" placeholder="Escribí tu respuesta...">
-      <button id="submitBtn">Responder</button>
-      <p id="feedback"></p>
-    </div>
-    <div id="resultBox" style="display:none;"></div>
+  <div class="menu-container">
+    <h1>🗽 200 Palabras - Parte 1️⃣</h1>
+    <button class="menu-btn" onclick="location.href='modos/texto/index.html'">📝 Modo Texto</button>
+    <button class="menu-btn" onclick="location.href='modos/autoevaluacion/index.html'">🤔 Autoevaluación</button>
   </div>
 
-  <!-- Lógica del cuestionario -->
-  <script src="main.js"></script>
-
-  <!-- Fondo animado -->
-  <script src="finisher-header.es5.min.js" type="text/javascript"></script>
-  <script type="text/javascript">
-new FinisherHeader({
-  "count": 20,
-  "size": {
-    "min": 2,
-    "max": 40,
-    "pulse": 0
-  },
-  "speed": {
-    "x": {
-      "min": 0,
-      "max": 0.8
-    },
-    "y": {
-      "min": 0,
-      "max": 0.2
-    }
-  },
-  "colors": {
-    "background": "#15182e",
-    "particles": [
-      "#ff926b",
-      "#87ddfe",
-      "#acaaff",
-      "#1bffc2",
-      "#f9a5fe"
-    ]
-  },
-  "blending": "screen",
-  "opacity": {
-    "center": 1,
-    "edge": 1
-  },
-  "skew": -1,
-  "shapes": [
-    "c",
-    "s",
-    "t"
-  ]
-});
-</script>
+  <script src="js/finisher-header.es5.min.js" type="text/javascript"></script>
+  <script>
+    new FinisherHeader({
+      "count": 20,
+      "size": { "min": 2, "max": 40, "pulse": 0 },
+      "speed": {
+        "x": { "min": 0, "max": 0.8 },
+        "y": { "min": 0, "max": 0.2 }
+      },
+      "colors": {
+        "background": "#15182e",
+        "particles": [
+          "#ff926b", "#87ddfe", "#acaaff", "#1bffc2", "#f9a5fe"
+        ]
+      },
+      "blending": "screen",
+      "opacity": { "center": 1, "edge": 1 },
+      "skew": -1,
+      "shapes": ["c", "s", "t"]
+    });
+  </script>
 </body>
 </html>

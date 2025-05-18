@@ -1,0 +1,33 @@
+#questionBox > * {
+  margin-bottom: 16px;
+}
+
+#questionText {
+  font-size: 1.4em;
+  color: #ffffff;
+}
+
+/* Respuesta oculta inicialmente */
+#answerDisplay {
+  display: none;
+}
+
+#answerDisplay.visible {
+  display: block;
+  color: #e0e0e0;
+}
+
+/* Botones ocultos inicialmente */
+#buttonsContainer {
+  display: none;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+#buttonsContainer.visible {
+  display: flex;
+}
+
+#buttonsContainer button {
+  flex: 1;
+}

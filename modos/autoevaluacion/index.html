@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Autoevaluación - 200 Palabras</title>
+  <link rel="stylesheet" href="../../css/styles.css">
+  <link rel="stylesheet" href="../../css/autoevaluacion.css">
+
+  <style>
+    .finisher-header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+
+    #buttonsContainer {
+      gap: 20px;
+      margin-top: 20px;
+      display: none; /* Oculto completamente hasta que se muestre */
+    }
+
+    #buttonsContainer.visible {
+      display: flex;
+    }
+
+    #buttonsContainer button {
+      flex: 1;
+    }
+
+    #answerDisplay {
+      display: none; /* Oculto completamente */
+    }
+
+    #answerDisplay.visible {
+      display: block;
+      color: #e0e0e0;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="finisher-header"></div>
+
+  <div class="container">
+    <h1>🤔 Autoevaluación - Parte 1️⃣</h1>
+    <div id="questionBox">
+      <p id="questionText"></p>
+      <button onclick="showAnswer()">Mostrar respuesta</button>
+      <p id="answerDisplay">Respuesta: <span id="answerText"></span></p>
+      <div id="buttonsContainer">
+        <button onclick="handleAnswer(true)">✅ Acierto</button>
+        <button onclick="handleAnswer(false)">❌ Error</button>
+      </div>
+    </div>
+    <div id="resultBox" style="display:none;"></div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="../../js/finisher-header.es5.min.js"></script>
+  <script src="../../js/utils.js"></script>
+  <script src="autoeval.js"></script>
+  <script>
+    new FinisherHeader({
+      "count": 20,
+      "size": { "min": 2, "max": 40, "pulse": 0 },
+      "speed": {
+        "x": { "min": 0, "max": 0.8 },
+        "y": { "min": 0, "max": 0.2 }
+      },
+      "colors": {
+        "background": "#15182e",
+        "particles": [
+          "#ff926b", "#87ddfe", "#acaaff", "#1bffc2", "#f9a5fe"
+        ]
+      },
+      "blending": "screen",
+      "opacity": { "center": 1, "edge": 1 },
+      "skew": -1,
+      "shapes": ["c", "s", "t"]
+    });
+  </script>
+</body>
+</html>

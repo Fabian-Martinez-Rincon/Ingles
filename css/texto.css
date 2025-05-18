@@ -1,0 +1,27 @@
+#questionBox > * {
+  margin-bottom: 16px;
+}
+
+#questionText {
+  font-size: 1.2em;
+  color: #ffffff;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #e0e0e0;
+  border-radius: 8px;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]::placeholder {
+  color: #999;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #6366f1;
+}
