@@ -1,6 +1,7 @@
 let questions = [];
 let currentQuestion = 0;
 let score = 0;
+let hasTriedOnce = false;
 
 const questionText = document.getElementById("questionText");
 const answerInput = document.getElementById("answerInput");
@@ -8,18 +9,18 @@ const submitBtn = document.getElementById("submitBtn");
 const feedback = document.getElementById("feedback");
 const resultBox = document.getElementById("resultBox");
 
-// Normaliza el texto: elimina acentos, puntuación, mayúsculas y espacios
 function normalize(text) {
   return text
     .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")         // quitar acentos
-    .replace(/[.,/#!$%^&*;:{}=_`~()?¿¡!"'«»]/g, "")  // quitar signos
-    .replace(/\s+/g, " ")                    // espacios simples
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[.,/#!$%^&*;:{}=_`~()?¿¡!"'«»]/g, "")
+    .replace(/\s+/g, " ")
     .toLowerCase()
     .trim();
 }
 
 function loadQuestion() {
+  hasTriedOnce = false;
   if (currentQuestion < questions.length) {
     questionText.textContent = `${currentQuestion + 1}. ${questions[currentQuestion].question}`;
     answerInput.value = "";
@@ -45,7 +46,6 @@ submitBtn.addEventListener("click", () => {
   const userAnswer = normalize(answerInput.value);
   const q = questions[currentQuestion];
 
-  // Asegura compatibilidad con 'answer' o 'answers'
   const rawAnswers = Array.isArray(q.answers)
     ? q.answers
     : typeof q.answer === 'string'
@@ -68,13 +68,21 @@ submitBtn.addEventListener("click", () => {
       loadQuestion();
     }, 800);
   } else {
-    const original = rawAnswers.join(" / ");
-    feedback.textContent = `Incorrecto. Respuesta esperada: "${original}"`;
-    feedback.className = "incorrect";
-    setTimeout(() => {
-      currentQuestion++;
-      loadQuestion();
-    }, 1600);
+    if (!hasTriedOnce) {
+      hasTriedOnce = true;
+      const hint = q.hint ? `<br><em>Pista:</em> ${q.hint}` : "";
+      feedback.innerHTML = `Incorrecto. Intentá una vez más.${hint}`;
+      feedback.className = "incorrect";
+      answerInput.focus();
+    } else {
+      const original = rawAnswers.join(" / ");
+      feedback.innerHTML = `Incorrecto. Respuesta esperada: "${original}"`;
+      feedback.className = "incorrect";
+      setTimeout(() => {
+        currentQuestion++;
+        loadQuestion();
+      }, 1600);
+    }
   }
 });
 

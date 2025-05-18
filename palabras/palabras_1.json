@@ -1,602 +1,1004 @@
 [
   { 
     "question": "ability", 
-    "answers": ["habilidad", "capacidad"] },
+    "answers": ["habilidad", "capacidad"],
+    "hint": "Lo necesitás para hacer algo bien."
+  },  
   { 
     "question": "activity", 
-    "answer": "actividad" },
+    "answer": "actividad",
+    "hint": "Algo que hacés en tu tiempo libre o en clase."
+    
+  },
+    
   { 
     "question": "ad", 
-    "answer": "anuncio" },
+    "answer": "anuncio" ,
+    "hint": "Lo ves en la tele entre programas."
+  },
   { 
     "question": "addition", 
-    "answer": "suma" },
+    "answer": "suma" ,
+    "hint": "Lo usás cuando sumás dos números."
+  },
   { 
     "question": "administration", 
-    "answer": "administración" },
+    "answer": "administración" ,
+    "hint": "Se encarga de organizar y gestionar."
+  },
   { 
     "question": "advertising", 
-    "answer": "publicidad" },
+    "answer": "publicidad" ,
+    "hint": "Lo que hacen las marcas para promocionar."
+  },
   { 
     "question": "advice", 
-    "answer": "consejo" },
+    "answer": "consejo" ,
+    "hint": "Algo que te da un amigo cuando estás en duda."
+  },
   { 
     "question": "agency", 
-    "answer": "agencia" },
+    "answer": "agencia" ,
+    "hint": "Lugar que presta servicios, como de viajes."
+  },
   { 
     "question": "alcohol", 
-    "answer": "alcohol" },
+    "answer": "alcohol" ,
+    "hint": "Está en bebidas como el vino o la cerveza."
+  },
   { 
     "question": "analysis", 
-    "answer": "análisis" },
+    "answer": "análisis" ,
+    "hint": "Lo que hacés cuando estudiás algo en detalle."
+  },
   { 
     "question": "apartment", 
-    "answer": "apartamento" },
+    "answer": "apartamento" ,
+    "hint": "Es un hogar dentro de un edificio."
+  },
   { 
     "question": "appearance", 
-    "answer": "apariencia" },
+    "answer": "apariencia" ,
+    "hint": "Es lo primero que ves de una persona."
+  },
   { 
     "question": "application", 
-    "answer": "solicitud" },
+    "answer": "solicitud" ,
+    "hint": "Lo que completás para pedir un trabajo."
+  },
   { 
     "question": "area", 
-    "answers": ["zona", "area"] },
+    "answers": ["zona", "area"],
+    "hint": "Parte de una superficie o lugar."
+  },
   { 
     "question": "argument", 
-    "answer": "argumento" },
+    "answer": "argumento" ,
+    "hint": "Lo que ocurre cuando dos personas discuten."
+  },
   { 
     "question": "army", 
-    "answer": "ejército" },
+    "answer": "ejército" ,
+    "hint": "Grupo de soldados organizados por un país."
+  },
   { 
     "question": "article", 
-    "answer": "artículo" },
+    "answer": "artículo" ,
+    "hint": "Puede estar en un diario o una revista."
+  },
   { 
     "question": "aspect", 
-    "answer": "aspecto" },
+    "answer": "aspecto" ,
+    "hint": "Un lado o parte de una situación."
+  },
   { 
     "question": "association", 
-    "answer": "asociación" },
+    "answer": "asociación" ,
+    "hint": "Grupo con intereses comunes."
+  },
   { 
     "question": "attention", 
-    "answer": "atención" },
+    "answer": "atención" ,
+    "hint": "Lo que necesitás prestar en clase."
+  },
   { 
     "question": "attitude", 
-    "answer": "actitud" },
+    "answer": "actitud" ,
+    "hint": "La forma en que te comportás o pensás."
+  },
   { 
     "question": "audience", 
-    "answer": "audiencia" },
+    "answer": "audiencia" ,
+    "hint": "La gente que mira un show o escucha una charla."
+  },
   { 
     "question": "basis", 
-    "answer": "base" },
+    "answer": "base" ,
+    "hint": "Es el fundamento de una idea o sistema."
+  },
   { 
     "question": "boyfriend", 
-    "answer": "novio" },
+    "answer": "novio" ,
+    "hint": "Pareja masculina en una relación amorosa."
+  },
   { 
     "question": "camera", 
-    "answer": "cámara" },
+    "answer": "cámara" ,
+    "hint": "Objeto que usás para sacar fotos."
+  },
   { 
     "question": "category", 
-    "answer": "categoría" },
+    "answer": "categoría" ,
+    "hint": "Grupo al que pertenece algo similar."
+  },
   { 
     "question": "cell", 
-    "answer": "celda" },
+    "answer": "celda" ,
+    "hint": "Unidad básica de los seres vivos o una prisión pequeña."
+  },
   { 
     "question": "chemistry", 
-    "answer": "química" },
+    "answer": "química" ,
+    "hint": "Ciencia que estudia sustancias y reacciones."
+  },
   { 
     "question": "child", 
-    "answer": "niño" },
+    "answer": "niño" ,
+    "hint": "Persona pequeña que aún no es adulta."
+  },
   { 
     "question": "cigarette", 
-    "answer": "cigarro" },
+    "answer": "cigarro" ,
+    "hint": "Se fuma y es perjudicial para la salud."
+  },
   { 
     "question": "collection", 
-    "answer": "colección" },
+    "answer": "colección" ,
+    "hint": "Grupo de objetos que alguien junta."
+  },
   { 
     "question": "college", 
-    "answer": "colegio" },
+    "answer": "colegio" ,
+    "hint": "Lugar donde estudiás después de la secundaria."
+  },
   { 
     "question": "combination", 
-    "answer": "combinación" },
+    "answer": "combinación" ,
+    "hint": "Mezcla de dos o más cosas."
+  },
   { 
     "question": "communication", 
-    "answer": "comunicación" },
+    "answer": "comunicación" ,
+    "hint": "Intercambio de información entre personas."
+  },
   { 
     "question": "community", 
-    "answer": "comunidad" },
+    "answer": "comunidad" ,
+    "hint": " Grupo de personas que viven o trabajan juntas."
+  },
   { 
     "question": "competition", 
-    "answer": "competencia" },
+    "answer": "competencia" ,
+    "hint": "Evento donde varios intentan ganar."
+  },
   { 
     "question": "complaint", 
-    "answer": "queja" },
+    "answer": "queja" ,
+    "hint": "Lo hacés cuando algo no te gusta o falla."
+  },
   { 
     "question": "computer", 
-    "answer": "computadora" },
+    "answer": "computadora" ,
+    "hint": "Dispositivo que usás para trabajar o jugar."
+  },
   { 
     "question": "concept", 
-    "answer": "concepto" },
+    "answer": "concepto" ,
+    "hint": "Idea general de algo."
+  },
   { 
     "question": "connection", 
-    "answer": "conexión" },
+    "answer": "conexión" ,
+    "hint": "Relación entre dos cosas o personas."
+  },
   { 
     "question": "context", 
-    "answer": "contexto" },
+    "answer": "contexto" ,
+    "hint": "Lo que rodea una situación o palabra y le da sentido."
+  },
   { 
     "question": "contract", 
-    "answer": "contrato" },
+    "answer": "contrato" ,
+    "hint": "Documento que firmás para acordar algo."
+  },
   { 
     "question": "control", 
-    "answer": "control" },
+    "answer": "control" ,
+    "hint": "Capacidad de manejar una situación."
+  },
   { 
     "question": "county", 
-    "answer": "condado" },
+    "answer": "condado" ,
+    "hint": "División territorial en algunos países."
+  },
   { 
     "question": "criticism", 
-    "answer": "crítica" },
+    "answer": "crítica" ,
+    "hint": "Opinión negativa o constructiva sobre algo."
+  },
   { 
     "question": "customer", 
-    "answer": "cliente" },
+    "answer": "cliente" ,
+    "hint": "Persona que compra en una tienda."
+  },
   { 
     "question": "data", 
-    "answer": "información" },
+    "answer": "información" ,
+    "hint": "Información que se puede analizar."
+  },
   { 
     "question": "dealer", 
-    "answer": "comerciante" },
+    "answer": "comerciante" ,
+    "hint": "Persona que vende algo, como autos."
+  },
   { 
     "question": "death", 
-    "answer": "muerte" },
+    "answer": "muerte" ,
+    "hint": "El fin de la vida."
+  },
   { 
     "question": "debt", 
-    "answer": "deuda" },
+    "answer": "deuda" ,
+    "hint": "Dinero que debés y tenés que pagar."
+  },
   { 
     "question": "decision", 
-    "answer": "decisión" },
+    "answer": "decisión" ,
+    "hint": "Lo que tomás cuando elegís entre opciones."
+  },
   { 
     "question": "definition", 
-    "answer": "definición" },
+    "answer": "definición" ,
+    "hint": "Explicación del significado de una palabra."
+  },
   { 
     "question": "department", 
-    "answer": "departamento" },
+    "answer": "departamento" ,
+    "hint": "Sección dentro de una empresa o tienda."
+  },
   { 
     "question": "depression", 
-    "answer": "depresión" },
+    "answer": "depresión" ,
+    "hint": "Tristeza profunda o enfermedad mental."
+  },
   { 
     "question": "depth", 
-    "answer": "profundidad" },
+    "answer": "profundidad" ,
+    "hint": "Qué tan hondo es algo."
+  },
   { 
     "question": "description", 
-    "answer": "descripción" },
+    "answer": "descripción" ,
+    "hint": "Explicación detallada de algo."
+  },
   { 
     "question": "development", 
-    "answer": "desarrollo" },
+    "answer": "desarrollo" ,
+    "hint": "Proceso de crecimiento o mejora."
+  },
   { 
     "question": "difference", 
-    "answer": "diferencia" },
+    "answer": "diferencia" ,
+    "hint": "Lo que hace que dos cosas no sean iguales."
+  },
   { 
     "question": "direction", 
-    "answer": "dirección" },
+    "answer": "dirección" ,
+    "hint": "Hacia dónde va algo."
+  },
   { 
     "question": "director", 
-    "answer": "director" },
+    "answer": "director" ,
+    "hint": "Persona que lidera un proyecto o película."
+  },
   { 
     "question": "discussion", 
-    "answer": "discusión" },
+    "answer": "discusión" ,
+    "hint": "Conversación para intercambiar ideas."
+  },
   { 
     "question": "disease", 
-    "answer": "enfermedad" },
+    "answer": "enfermedad" ,
+    "hint": "Problema de salud que afecta al cuerpo."
+  },
   { 
     "question": "disk", 
-    "answer": "disco" },
+    "answer": "disco" ,
+    "hint": "Objeto redondo para guardar datos o música."
+  },
   { 
     "question": "distribution", 
-    "answer": "distribución" },
+    "answer": "distribución" ,
+    "hint": "Reparto o entrega de productos."
+  },
   { 
     "question": "driver", 
-    "answer": "conductor" },
+    "answer": "conductor" ,
+    "hint": "Persona que maneja un vehículo."
+  },
   { 
     "question": "economics", 
-    "answer": "economía" },
+    "answer": "economía" ,
+    "hint": "Ciencia que estudia el dinero y los recursos."
+  },
   { 
     "question": "education", 
-    "answer": "educación" },
+    "answer": "educación" ,
+    "hint": "Proceso de aprender en la escuela o universidad."
+  },
   { 
     "question": "effort", 
-    "answer": "esfuerzo" },
+    "answer": "esfuerzo" ,
+    "hint": "Lo que ponés cuando intentás algo difícil."
+  },
   { 
     "question": "emphasis", 
-    "answer": "énfasis" },
+    "answer": "énfasis" ,
+    "hint": "Cuando destacás algo importante."
+  },
   { 
     "question": "entertainment", 
-    "answer": "entretenimiento" },
+    "answer": "entretenimiento" ,
+    "hint": "Lo que hacés para divertirte"
+  },
   { 
     "question": "environment", 
-    "answer": "ambiente" },
+    "answer": "ambiente" ,
+    "hint": "Lo que rodea a las personas o animales."
+  },
   { 
     "question": "equipment", 
-    "answer": "equipo" },
+    "answer": "equipo" ,
+    "hint": "Herramientas o aparatos para una tarea."
+  },
   { 
     "question": "estate", 
-    "answer": "inmuebles" },
+    "answer": "inmuebles" ,
+    "hint": "Propiedad grande como una casa o terreno."
+  },
   { 
     "question": "event", 
-    "answer": "evento" },
+    "answer": "evento" ,
+    "hint": "Algo organizado como una fiesta o conferencia."
+  },
   { 
     "question": "exam", 
-    "answer": "examen" },
+    "answer": "examen" ,
+    "hint": "Lo que rendís para demostrar lo que sabés."
+  },
   { 
     "question": "expression", 
-    "answer": "expresión" },
+    "answer": "expresión" ,
+    "hint": "Lo que mostrás con la cara o las palabras."
+  },
   { 
     "question": "fact", 
-    "answer": "hecho" },
+    "answer": "hecho" ,
+    "hint": "Algo verdadero que se puede comprobar."
+  },
   { 
     "question": "failure", 
-    "answer": "fracaso" },
+    "answer": "fracaso" ,
+    "hint": "Cuando algo no sale como esperabas."
+  },
   { 
     "question": "family", 
-    "answer": "familia" },
+    "answer": "familia" ,
+    "hint": "Grupo de personas unidas por lazos de sangre o amor."
+  },
   { 
     "question": "finding", 
-    "answers": ["hallazgo", "descubrimiento"] },
+    "answers": ["hallazgo", "descubrimiento"],
+    "hint": "Algo que descubrís o encontrás."
+  },
   { 
     "question": "fishing", 
-    "answer": "pesca" },
+    "answer": "pesca" ,
+    "hint": "Actividad de atrapar peces."
+  },
   { 
     "question": "flight", 
-    "answer": "vuelo" },
+    "answer": "vuelo" ,
+    "hint": "Lo que tomás para viajar en avión."
+  },
   { 
     "question": "foundation", 
-    "answer": "fundación" },
+    "answer": "fundación" ,
+    "hint": "Base de algo físico o de una organización."
+  },
   { 
     "question": "freedom", 
-    "answer": "libertad" },
+    "answer": "libertad" ,
+    "hint": "Poder hacer lo que querés sin restricciones."
+  },
   { 
     "question": "goal", 
-    "answer": "gol" },
+    "answer": "gol" ,
+    "hint": "Lo que querés lograr o marcar en el fútbol."
+  },
   { 
     "question": "grandmother", 
-    "answer": "abuela" },
+    "answer": "abuela" ,
+    "hint": "Mamá de tu mamá o papá."
+  },
   { 
     "question": "growth", 
-    "answer": "crecimiento" },
+    "answer": "crecimiento" ,
+    "hint": "Proceso de hacerse más grande o mejorar."
+  },
   { 
     "question": "health", 
-    "answer": "salud" },
+    "answer": "salud" ,
+    "hint": "Estado de tu cuerpo y mente."
+  },
   { 
     "question": "highway", 
-    "answer": "autopista" },
+    "answer": "autopista" ,
+    "hint": "Camino rápido para viajar entre ciudades."
+  },
   { 
     "question": "history", 
-    "answer": "historia" },
+    "answer": "historia" ,
+    "hint": "Estudio del pasado."
+  },
   { 
     "question": "housing", 
-    "answer": "alojamiento" },
+    "answer": "alojamiento" ,
+    "hint": "Lugar donde vive la gente."
+  },
   { 
     "question": "imagination", 
-    "answer": "imaginación" },
+    "answer": "imaginación" ,
+    "hint": "Lo que usás para crear cosas en tu mente."
+  },
   { 
     "question": "importance", 
-    "answer": "importancia" },
+    "answer": "importancia" ,
+    "hint": "Valor o relevancia de algo."
+  },
   { 
     "question": "income", 
-    "answer": "ingreso" },
+    "answer": "ingreso" ,
+    "hint": "Dinero que ganás por trabajar."
+  },
   { 
     "question": "inflation", 
-    "answer": "inflación" },
+    "answer": "inflación" ,
+    "hint": "Subida general de precios."
+  },
   { 
     "question": "instance", 
-    "answer": "ejemplo" },
+    "answer": "ejemplo" ,
+    "hint": "Un caso o ejemplo particular."
+  },
   { 
     "question": "insurance", 
-    "answer": "seguro" },
+    "answer": "seguro" ,
+    "hint": "Protección económica ante un problema."
+  },
   { 
     "question": "internet", 
-    "answer": "internet" },
+    "answer": "internet" ,
+    "hint": "Red global para buscar y compartir información."
+  },
   { 
     "question": "introduction", 
-    "answer": "introducción" },
+    "answer": "introducción" ,
+    "hint": "Parte inicial donde se presenta algo."
+  },
   { 
     "question": "investment", 
-    "answer": "inversión" },
+    "answer": "inversión" ,
+    "hint": "Poner dinero esperando ganancias."
+  },
   { 
     "question": "knowledge", 
-    "answer": "conocimiento" },
+    "answer": "conocimiento" ,
+    "hint": "Lo que sabés sobre distintos temas."
+  },
   { 
     "question": "length", 
-    "answer": "longitud" },
+    "answer": "longitud" ,
+    "hint": "Medida de algo de punta a punta."
+  },
   { 
     "question": "library", 
-    "answer": "biblioteca" },
+    "answer": "biblioteca" ,
+    "hint": "Lugar con libros para leer o estudiar."
+  },
   { 
     "question": "literature", 
-    "answer": "literatura" },
+    "answer": "literatura" ,
+    "hint": "Textos escritos como novelas y poemas."
+  },
   { 
     "question": "location", 
-    "answer": "ubicación" },
+    "answer": "ubicación" ,
+    "hint": "Lugar donde está algo."
+  },
   { 
     "question": "loss", 
-    "answer": "pérdida" },
+    "answer": "pérdida" ,
+    "hint": "Cuando perdés algo importante."
+  },
   { 
     "question": "magazine", 
-    "answer": "revista" },
+    "answer": "revista" ,
+    "hint": "Publicación con artículos y fotos."
+  },
   { 
     "question": "management", 
-    "answer": "gerencia" },
+    "answer": "gerencia" ,
+    "hint": "Organización y control de una empresa."
+  },
   { 
     "question": "marketing", 
-    "answer": "mercadeo" },
+    "answer": "mercadeo" ,
+    "hint": "Técnicas para vender productos."
+  },
   { 
     "question": "marriage", 
-    "answer": "matrimonio" },
+    "answer": "matrimonio" ,
+    "hint": "Unión legal entre dos personas."
+  },
   { 
     "question": "math", 
-    "answer": "matemáticas" },
+    "answer": "matemáticas" ,
+    "hint": "Materia que estudia números y operaciones."
+  },
   { 
     "question": "meaning", 
-    "answer": "significado" },
+    "answer": "significado" ,
+    "hint": "Lo que algo quiere decir."
+  },
   { 
     "question": "media", 
-    "answer": "medios" },
+    "answer": "medios" ,
+    "hint": "Canales como TV, radio o redes sociales."
+  },
   { 
     "question": "medicine", 
-    "answer": "medicina" },
+    "answer": "medicina" ,
+    "hint": "Sustancia que tomás para curarte."
+  },
   { 
     "question": "member", 
-    "answer": "miembro" },
+    "answer": "miembro" ,
+    "hint": "Parte de un grupo o club."
+  },
   { 
     "question": "membership", 
-    "answer": "membresía" },
+    "answer": "membresía" ,
+    "hint": "Pertenencia oficial a un grupo."
+  },
   { 
     "question": "memory", 
-    "answer": "memoria" },
+    "answer": "memoria" ,
+    "hint": "Capacidad para recordar."
+  },
   { 
     "question": "message", 
-    "answer": "mensaje" },
+    "answer": "mensaje" ,
+    "hint": "Algo que enviás por celular o mail."
+  },
   { 
     "question": "method", 
-    "answer": "método" },
+    "answer": "método" ,
+    "hint": "Forma organizada de hacer algo."
+  },
   { 
     "question": "moment", 
-    "answer": "momento" },
+    "answer": "momento" ,
+    "hint": "Instante breve en el tiempo."
+  },
   { 
     "question": "mood", 
-    "answer": "humor" },
+    "answer": "humor" ,
+    "hint": "Cómo te sentís emocionalmente."
+  },
   { 
     "question": "nature", 
-    "answer": "naturaleza" },
+    "answer": "naturaleza" ,
+    "hint": "Todo lo que no es hecho por humanos."
+  },
   { 
     "question": "news", 
-    "answer": "noticias" },
+    "answer": "noticias" ,
+    "hint": "Información actual sobre lo que pasa."
+  },
   { 
     "question": "opinion", 
-    "answer": "opinión" },
+    "answer": "opinión" ,
+    "hint": "Lo que pensás sobre algo."
+  },
   { 
     "question": "opportunity", 
-    "answer": "oportunidad" },
+    "answer": "oportunidad" ,
+    "hint": "Posibilidad de hacer o conseguir algo."
+  },
   { 
     "question": "organization", 
-    "answer": "organización" },
+    "answer": "organización" ,
+    "hint": "Grupo ordenado con un objetivo."
+  },
   { 
     "question": "oven", 
-    "answer": "horno" },
+    "answer": "horno" ,
+    "hint": "Electrodoméstico para cocinar."
+  },
   { 
     "question": "painting", 
-    "answer": "pintura" },
+    "answer": "pintura" ,
+    "hint": "Obra de arte hecha con pinceles y colores."
+  },
   { 
     "question": "passion", 
-    "answer": "pasión" },
+    "answer": "pasión" ,
+    "hint": "Sentimiento fuerte por algo que amás."
+  },
   { 
     "question": "patience", 
-    "answer": "paciencia" },
+    "answer": "paciencia" ,
+    "hint": "Esperar sin perder la calma."
+  },
   { 
     "question": "payment", 
-    "answer": "pago" },
+    "answer": "pago" ,
+    "hint": "Acción de dar dinero por algo."
+  },
   { 
     "question": "people", 
-    "answer": "gente" },
+    "answer": "gente" ,
+    "hint": "Plural de persona; grupo de humanos."
+  },
   { 
     "question": "percentage", 
-    "answer": "porcentaje" },
+    "answer": "porcentaje" ,
+    "hint": ""
+  },
   { 
     "question": "performance", 
-    "answer": "desempeño" },
+    "answer": "desempeño" ,
+    "hint": ""
+  },
   { 
     "question": "personality", 
-    "answer": "personalidad" },
+    "answer": "personalidad" ,
+    "hint": ""
+  },
   { 
     "question": "perspective", 
-    "answer": "perspectiva" },
+    "answer": "perspectiva" ,
+    "hint": ""
+  },
   { 
     "question": "philosophy", 
-    "answer": "filosofía" },
+    "answer": "filosofía" ,
+    "hint": ""
+  },
   { 
     "question": "phone", 
-    "answer": "teléfono" },
+    "answer": "teléfono" ,
+    "hint": ""
+  },
   { 
     "question": "photo", 
-    "answer": "foto" },
+    "answer": "foto" ,
+    "hint": ""
+  },
   { 
     "question": "physics", 
-    "answer": "física" },
+    "answer": "física" ,
+    "hint": ""
+  },
   { 
     "question": "player", 
-    "answer": "jugador" },
+    "answer": "jugador" ,
+    "hint": ""
+  },
   { 
     "question": "policy", 
-    "answer": "póliza" },
+    "answer": "póliza" ,
+    "hint": ""
+  },
   { 
     "question": "politics", 
-    "answer": "política" },
+    "answer": "política" ,
+    "hint": ""
+  },
   { 
     "question": "population", 
-    "answer": "población" },
+    "answer": "población" ,
+    "hint": ""
+  },
   { 
     "question": "possession", 
-    "answer": "posesión" },
+    "answer": "posesión" ,
+    "hint": ""
+  },
   { 
     "question": "power", 
-    "answer": "poder" },
+    "answer": "poder" ,
+    "hint": ""
+  },
   { 
     "question": "preparation", 
-    "answer": "preparación" },
+    "answer": "preparación" ,
+    "hint": ""
+  },
   { 
     "question": "psychology", 
-    "answer": "psicología" },
+    "answer": "psicología" ,
+    "hint": ""
+  },
   { 
     "question": "quality", 
-    "answer": "calidad" },
+    "answer": "calidad" ,
+    "hint": ""
+  },
   { 
     "question": "reality", 
-    "answer": "realidad" },
+    "answer": "realidad" ,
+    "hint": ""
+  },
   { 
     "question": "recipe", 
-    "answer": "receta" },
+    "answer": "receta" ,
+    "hint": ""
+  },
   { 
     "question": "recommendation", 
-    "answer": "recomendación" },
+    "answer": "recomendación" ,
+    "hint": ""
+  },
   { 
     "question": "relationship", 
-    "answer": "relación" },
+    "answer": "relación" ,
+    "hint": ""
+  },
   { 
     "question": "resource", 
-    "answer": "recurso" },
+    "answer": "recurso" ,
+    "hint": ""
+  },
   { 
     "question": "response", 
-    "answer": "respuesta" },
+    "answer": "respuesta" ,
+    "hint": ""
+  },
   { 
     "question": "responsibility", 
-    "answer": "responsabilidad" },
+    "answer": "responsabilidad" ,
+    "hint": ""
+  },
   { 
     "question": "role", 
-    "answer": "rol" },
+    "answer": "rol" ,
+    "hint": ""
+  },
   { 
     "question": "safety", 
-    "answer": "seguridad" },
+    "answer": "seguridad" ,
+    "hint": ""
+  },
   { 
     "question": "scene", 
-    "answer": "escena" },
+    "answer": "escena" ,
+    "hint": ""
+  },
   { 
     "question": "science", 
-    "answer": "ciencia" },
+    "answer": "ciencia" ,
+    "hint": ""
+  },
   { 
     "question": "secretary", 
-    "answer": "secretaria" },
+    "answer": "secretaria" ,
+    "hint": ""
+  },
   { 
     "question": "security", 
-    "answer": "salvaguardia" },
+    "answer": "salvaguardia" ,
+    "hint": ""
+  },
   { 
     "question": "selection", 
-    "answer": "selección" },
+    "answer": "selección" ,
+    "hint": ""
+  },
   { 
     "question": "series", 
-    "answer": "serie" },
+    "answer": "serie" ,
+    "hint": ""
+  },
   { 
     "question": "setting", 
-    "answer": "ajuste" },
+    "answer": "ajuste" ,
+    "hint": ""
+  },
   { 
     "question": "shopping", 
-    "answer": "compras" },
+    "answer": "compras" ,
+    "hint": ""
+  },
   { 
     "question": "situation", 
-    "answer": "situación" },
+    "answer": "situación" ,
+    "hint": ""
+  },
   { 
     "question": "skill", 
-    "answer": "destreza" },
+    "answer": "destreza" ,
+    "hint": ""
+  },
   { 
     "question": "society", 
-    "answer": "sociedad" },
+    "answer": "sociedad" ,
+    "hint": ""
+  },
   { 
     "question": "software", 
-    "answer": "programa" },
+    "answer": "programa" ,
+    "hint": ""
+  },
   { 
     "question": "solution", 
-    "answer": "solución" },
+    "answer": "solución" ,
+    "hint": ""
+  },
   { 
     "question": "soup", 
-    "answer": "sopa" },
+    "answer": "sopa" ,
+    "hint": ""
+  },
   { 
     "question": "statement", 
-    "answer": "declaración" },
+    "answer": "declaración" ,
+    "hint": ""
+  },
   { 
     "question": "steak", 
-    "answer": "filete" },
+    "answer": "filete" ,
+    "hint": ""
+  },
   { 
     "question": "storage", 
-    "answer": "depósito" },
+    "answer": "depósito" ,
+    "hint": ""
+  },
   { 
     "question": "story", 
-    "answer": "relato" },
+    "answer": "relato" ,
+    "hint": ""
+  },
   { 
     "question": "strategy", 
-    "answer": "estrategia" },
+    "answer": "estrategia" ,
+    "hint": ""
+  },
   { 
     "question": "studio", 
-    "answer": "estudio" },
+    "answer": "estudio" ,
+    "hint": ""
+  },
   { 
     "question": "success", 
-    "answer": "éxito" },
+    "answer": "éxito" ,
+    "hint": ""
+  },
   { 
     "question": "system", 
-    "answer": "sistema" },
+    "answer": "sistema" ,
+    "hint": ""
+  },
   { 
     "question": "teacher", 
-    "answer": "profesor" },
+    "answer": "profesor" ,
+    "hint": ""
+  },
   { 
     "question": "teaching", 
-    "answer": "enseñanza" },
+    "answer": "enseñanza" ,
+    "hint": ""
+  },
   { 
     "question": "technology", 
-    "answer": "tecnología" },
+    "answer": "tecnología" ,
+    "hint": ""
+  },
   { 
     "question": "television", 
-    "answer": "televisión" },
+    "answer": "televisión" ,
+    "hint": ""
+  },
   { 
     "question": "temperature", 
-    "answer": "temperatura" },
+    "answer": "temperatura" ,
+    "hint": ""
+  },
   { 
     "question": "thanks", 
-    "answer": "gracias" },
+    "answer": "gracias" ,
+    "hint": ""
+  },
   { 
     "question": "theory", 
-    "answer": "teoría" },
+    "answer": "teoría" ,
+    "hint": ""
+  },
   { 
     "question": "thought", 
-    "answer": "pensamiento" },
+    "answer": "pensamiento" ,
+    "hint": ""
+  },
   { 
     "question": "topic", 
-    "answer": "tema" },
+    "answer": "tema" ,
+    "hint": ""
+  },
   { 
     "question": "truth", 
-    "answer": "verdad" },
+    "answer": "verdad" ,
+    "hint": ""
+  },
   { 
     "question": "unit", 
-    "answer": "unidad" },
+    "answer": "unidad" ,
+    "hint": ""
+  },
   { 
     "question": "university", 
-    "answer": "universidad" },
+    "answer": "universidad" ,
+    "hint": ""
+  },
   { 
     "question": "user", 
-    "answer": "usuario" },
+    "answer": "usuario" ,
+    "hint": ""
+  },
   { 
     "question": "variety", 
-    "answer": "variedad" },
+    "answer": "variedad" ,
+    "hint": ""
+  },
   { 
     "question": "version", 
-    "answer": "versión" },
+    "answer": "versión" ,
+    "hint": ""
+  },
   { 
     "question": "video", 
-    "answer": "video" },
+    "answer": "video" ,
+    "hint": ""
+  },
   { 
     "question": "wealth", 
-    "answer": "riqueza" },
+    "answer": "riqueza" ,
+    "hint": ""
+  },
   { 
     "question": "week", 
-    "answer": "semana" },
+    "answer": "semana" ,
+    "hint": ""
+  },
   { 
     "question": "wood", 
-    "answer": "madera" },
+    "answer": "madera" ,
+    "hint": ""
+  },
   { 
     "question": "writing", 
-    "answer": "escritura " }
+    "answer": "escritura ",
+    "hint": ""
+  } 
 ]
